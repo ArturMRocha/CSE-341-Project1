@@ -1,0 +1,20 @@
+{
+  "name": "cse-341-project1",
+  "version": "1.0.0",
+  "description": "My First Project ",
+  "homepage": "https://github.com/ArturMRocha/CSE-341-Project1#readme",
+  "bugs": {
+    "url": "https://github.com/ArturMRocha/CSE-341-Project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturMRocha/CSE-341-Project1.git"
+  },
+  "license": "ISC",
+  "author": "Arthur Rocha",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
