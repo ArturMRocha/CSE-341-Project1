@@ -1,0 +1,26 @@
+### Teste 1: Obter TODOS os usuários (Local)
+# @name getAllLocal
+GET http://localhost:3000/users
+
+### -------------------------------------------
+
+### Teste 2: Obter UM usuário (Local)
+# @name getSingleLocal
+# (Primeiro, execute o teste "getAllLocal" acima,
+# copie um valor "_id" da resposta,
+# e cole-o aqui substituindo 'SEU_ID_AQUI')
+GET http://localhost:3000/users/69029298f580bd73efcc0777
+
+### -------------------------------------------
+
+### Teste 3: Obter TODOS os usuários (Produção - Render)
+# (Substitua 'seu-app.onrender.com' pelo seu URL real do Render)
+# @name getAllProduction
+GET https://project1-09ot.onrender.com
+
+### -------------------------------------------
+
+### Teste 4: Obter UM usuário (Produção - Render)
+# @name getSingleProduction
+# (Use um ID do banco de dados de produção)
+GET https://project1-09ot.onrender.com/users/69028d25f580bd73efcc0775
