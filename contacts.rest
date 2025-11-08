@@ -2,9 +2,9 @@
 
 // Variável de host (mude para o localhost ou Render)
 @host = http://localhost:3000
-// @host =https://cse-341-spring-0wcg.onrender.com
+//@host =https://project1-09ot.onrender.com
 // Use este ID após criar um novo contato
-@contactId = 690f77ac92ea566d6c69a809
+@contactId = 690f7df2376855493d3108b0
 
 ###
 # GET: Obter todos os contatos
