@@ -1,0 +1,53 @@
+// contacts.rest
+
+// Variável de host (mude para o localhost ou Render)
+@host = http://localhost:3000
+// @host =https://cse-341-spring-0wcg.onrender.com
+// Use este ID após criar um novo contato
+@contactId = 690f77ac92ea566d6c69a809
+
+###
+# GET: Obter todos os contatos
+GET {{host}}/contacts
+Accept: application/json
+
+###
+# POST: Criar um novo contato
+# @name createContact
+POST {{host}}/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane.doe@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "20/07/1988"
+}
+
+###
+# (Após rodar o POST, copie o ID da resposta e cole na variável @contactId acima)
+
+###
+# GET: Obter o contato único recém-criado
+GET {{host}}/contacts/{{contactId}}
+Accept: application/json
+
+###
+# PUT: Atualizar o contato
+PUT {{host}}/contacts/{{contactId}}
+Content-Type: application/json
+
+{
+  "email": "jane.doe.updated@example.com",
+  "favoriteColor": "Emerald Green"
+}
+
+###
+# DELETE: Deletar o contato
+DELETE {{host}}/contacts/{{contactId}}
+
+###
+# GET: Tentar obter o contato deletado (deve falhar com 404)
+GET {{host}}/contacts/{{contactId}}
+Accept: application/json

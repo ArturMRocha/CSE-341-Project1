@@ -14,12 +14,20 @@
   "author": "Arthur Rocha",
   "type": "commonjs",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mongodb": "^6.20.0"
+    "mongodb": "^6.20.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "swagger-autogen": "^2.23.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "swagger": "node swagger.js",
+    "dev": "nodemon server.js"
   }
 }
