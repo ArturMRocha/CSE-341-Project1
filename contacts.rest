@@ -1,10 +1,8 @@
-// contacts.rest
-
 // Variável de host (mude para o localhost ou Render)
-@host = http://localhost:3000
-//@host =https://project1-09ot.onrender.com
+//@host = http://localhost:3000/contacts
+@host =https://project1-09ot.onrender.com
 // Use este ID após criar um novo contato
-@contactId = 690f7df2376855493d3108b0
+@contactId = 69112b80a04d7f44a1c0d1e0
 
 ###
 # GET: Obter todos os contatos
