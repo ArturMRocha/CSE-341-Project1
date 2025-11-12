@@ -8,7 +8,7 @@
   "host": "cse-341-spring-0wcg.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https://"
+    "https"
   ],
   "paths": {
     "/contacts/": {

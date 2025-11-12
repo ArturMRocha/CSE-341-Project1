@@ -7,7 +7,7 @@ const doc = {
     description: 'API para gerenciar contatos pessoais.'
   },
   host: 'cse-341-spring-0wcg.onrender.com', // Ex: 'cse341-project.onrender.com'
-  schemes: ['https://'], // Use 'http' para testes locais
+  schemes: ['https'], // Use 'http' para testes locais
   definitions: {
     Contact: {
       firstName: "João",
