@@ -6,7 +6,7 @@ const doc = {
     title: 'Contacts API',
     description: 'API para gerenciar contatos pessoais.'
   },
-  host: 'https://project1-09ot.onrender.com', // Ex: 'cse341-project.onrender.com'
+  host: 'project1-09ot.onrender.com', // Ex: 'cse341-project.onrender.com'
   schemes: ['https'], // Use 'http' para testes locais
   definitions: {
     Contact: {
