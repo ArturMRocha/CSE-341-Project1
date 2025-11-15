@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "host": "project1-09ot.onrender.com",
-  "basePath": "/",
+  "basePath": "/contacts",
   "schemes": [
     "https"
   ],
